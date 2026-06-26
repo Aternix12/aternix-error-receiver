@@ -12,4 +12,10 @@ return [
     | (best-effort — a mail failure never blocks storing the report).
     */
     'notify_email' => env('ERROR_REPORT_NOTIFY_EMAIL'),
+
+    /*
+    | HTTP Basic Auth credentials for the /dashboard view.
+    */
+    'dashboard_user' => env('DASHBOARD_USER'),
+    'dashboard_password' => env('DASHBOARD_PASSWORD'),
 ];
